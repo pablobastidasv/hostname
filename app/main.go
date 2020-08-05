@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	version := "v4"
+	version := "v5"
 
 	r := gin.Default()
 	r.GET("/", func(c *gin.Context) {
